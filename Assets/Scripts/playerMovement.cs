@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class playerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float moveSpeed;
 
     public Rigidbody2D rb;
     public Animator animator;
-
+    public vectorValue startingPos;
     Vector2 movement;
-    
+
+    private void Start()
+    {
+        transform.position = startingPos.initialValue;
+    }
+
     void Update()
     {
         movement.x = Input.GetAxisRaw("Horizontal");
@@ -23,6 +28,15 @@ public class playerMovement : MonoBehaviour
         else
         {
             movement.x = 0;
+        }
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            moveSpeed += 2;
+            animator.speed *= 140 / 100;
+        } else if(Input.GetKeyUp(KeyCode.LeftShift)) {
+            moveSpeed -= 2;
+            animator.speed = 1;
         }
 
 

@@ -49,6 +49,7 @@ MonoBehaviour:
   moveSpeed: 5
   rb: {fileID: 4488932456236729829}
   animator: {fileID: 4488932457606265641}
+  startingPos: {fileID: 0}
 --- !u!50 &4488932456236729829
 Rigidbody2D:
   serializedVersion: 4
