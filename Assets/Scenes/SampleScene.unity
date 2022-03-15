@@ -128,6 +128,91 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9117674153677254850, guid: cb8353332e546664e83d4f11c959b55d, type: 3}
   m_PrefabInstance: {fileID: 9117674154069071913}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &373685762
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: fadeWait
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: indicator
+      value: 
+      objectReference: {fileID: 1249355269}
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: fadeInPanel
+      value: 
+      objectReference: {fileID: 6951571604193858107, guid: 0c969d70fd5353944852e61e655e4dd9, type: 3}
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: playerPos.x
+      value: 3.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: sceneToLoad
+      value: Bathroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: fadeOutPanel
+      value: 
+      objectReference: {fileID: 480374755965947617, guid: 7ef8c4a95bec8204183571bc65534ba6, type: 3}
+    - target: {fileID: 905483582647813590, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: 6ab57b402e54be9498e34dec955a8b4d, type: 2}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -42.207466
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8659865931593461944, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
+      propertyPath: m_Name
+      value: Scene Transition (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -169,7 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 4488932455837708894}
   offset: {x: 0, y: 0, z: -10}
-  smoothing: 10
+  smoothing: 8
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -197,7 +282,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -259,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 1849203102}
-  dialog: Horse but Hole
+  dialog: ini kotak dialog ceritanya
   isInRange: 0
   indicator: {fileID: 1249355269}
   dialogTMP: {fileID: 2054191367}
@@ -670,6 +755,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3780374893133599951, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
 --- !u!4 &4488932455837708894 stripped
@@ -743,7 +832,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3350093463630702364, guid: 2e106fd152d2ce148ab36b7c62378ed7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -812,8 +901,11 @@ MonoBehaviour:
   sceneToLoad: World
   indicator: {fileID: 1249355269}
   isInRange: 0
-  playerPos: {x: 5.06, y: -1}
+  playerPos: {x: 5.06, y: -1.5}
   playerStorage: {fileID: 11400000, guid: 6ab57b402e54be9498e34dec955a8b4d, type: 2}
+  fadeInPanel: {fileID: 6951571604193858107, guid: 0c969d70fd5353944852e61e655e4dd9, type: 3}
+  fadeOutPanel: {fileID: 480374755965947617, guid: 7ef8c4a95bec8204183571bc65534ba6, type: 3}
+  fadeWait: 0.5
 --- !u!1001 &9117674154069071913
 PrefabInstance:
   m_ObjectHideFlags: 0

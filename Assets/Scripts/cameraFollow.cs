@@ -6,9 +6,14 @@ public class cameraFollow : MonoBehaviour
 {
 
     public Transform target;
-    public Vector3 offset;
+    public Vector3 offset = new Vector3 (0,0,-10);
     [Range(2,10)]
-    public float smoothing;
+    public float smoothing = 8f;
+
+    private void Start()
+    {
+        target = GameObject.Find("PlayerSprite").transform;
+    }
 
     void FixedUpdate()
     {
