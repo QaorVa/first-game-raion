@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class sceneTransition : MonoBehaviour
 {
 
     public string sceneToLoad;
+    public string indicatorBody;
     public GameObject indicator;
+    public TMP_Text indicatorText;
     public bool isInRange;
     public Vector2 playerPos;
     public vectorValue playerStorage;
@@ -41,7 +44,7 @@ public class sceneTransition : MonoBehaviour
         {
             isInRange = true;
             indicator.SetActive(true);
-            
+            indicatorText.text = indicatorBody;
         }
     }
 

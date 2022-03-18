@@ -8,10 +8,12 @@ public class Sign : MonoBehaviour
 {
     public GameObject dialogBox;
     public string dialog;
+    public string indicatorBody;
     public bool isInRange;
     public GameObject indicator;
+    public TMP_Text indicatorText;
     public TMP_Text dialogTMP;
-    
+    public Image charSprite;
 
     void Update()
     {
@@ -21,10 +23,12 @@ public class Sign : MonoBehaviour
             {
                 dialogBox.SetActive(false);
                 indicator.SetActive(true);
+                charSprite.gameObject.SetActive(false);
             } else
             {
                 indicator.SetActive(false);
                 dialogBox.SetActive(true);
+                charSprite.gameObject.SetActive(true);
                 dialogTMP.text = dialog;
             }
         }
@@ -36,6 +40,8 @@ public class Sign : MonoBehaviour
         {
             isInRange = true;
             indicator.SetActive(true);
+            indicatorText.text = indicatorBody;
+
         }
     }
 
@@ -46,6 +52,7 @@ public class Sign : MonoBehaviour
             isInRange = false;
             dialogBox.SetActive(false);
             indicator.SetActive(false);
+            charSprite.gameObject.SetActive(false);
         }
     }
 }

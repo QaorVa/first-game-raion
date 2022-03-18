@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: ef51fb83365202e4d9f3291d746ece98
   - enabled: 1
+    path: Assets/Scenes/Narration.unity
+    guid: f71bb480f11cc804f834a94dad7df5b7
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -17,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Bathroom.unity
     guid: 4235048aa11d0014b83a9cdca4071827
+  - enabled: 1
+    path: Assets/Scenes/Storage.unity
+    guid: 43c9efae3fb8d0843847d81992417177
   m_configObjects: {}

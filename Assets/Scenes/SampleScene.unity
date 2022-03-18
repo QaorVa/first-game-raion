@@ -345,8 +345,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogBox: {fileID: 1849203102}
   dialog: ini kotak dialog ceritanya
+  indicatorBody: 'E: balbla'
   isInRange: 0
-  indicator: {fileID: 1249355269}
+  indicator: {fileID: 1365046793}
+  indicatorText: {fileID: 1249355270}
   dialogTMP: {fileID: 2054191367}
 --- !u!61 &524614642
 BoxCollider2D:
@@ -515,6 +517,22 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3780374893607496532, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
   m_PrefabInstance: {fileID: 3780374894511918417}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1249355270 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3780374893607496534, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+  m_PrefabInstance: {fileID: 3780374894511918417}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249355269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1365046793 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7694545503938415751, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+  m_PrefabInstance: {fileID: 3780374894511918417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1624911945
 GameObject:
   m_ObjectHideFlags: 0
@@ -667,6 +685,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1311734478010691470, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3506944473288008965, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3551697387681680950, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3777460290663278949, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3780374892767641843, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -758,6 +792,18 @@ PrefabInstance:
     - target: {fileID: 3780374893133599951, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3780374893232400999, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7856156377515391072, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8676684279431628932, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f93fd44a8f00bb49977bfae7f74ebf1, type: 3}
@@ -899,7 +945,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: World
+  indicatorBody: 
   indicator: {fileID: 1249355269}
+  indicatorText: {fileID: 0}
   isInRange: 0
   playerPos: {x: 5.06, y: -1.5}
   playerStorage: {fileID: 11400000, guid: 6ab57b402e54be9498e34dec955a8b4d, type: 2}

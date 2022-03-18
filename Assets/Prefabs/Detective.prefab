@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5592241226005743592}
   - component: {fileID: 5592241226005743595}
   - component: {fileID: 5592241226005743606}
-  - component: {fileID: 8345246583433801293}
+  - component: {fileID: 3753023226750856504}
   m_Layer: 0
   m_Name: Detective
   m_TagString: Body
@@ -83,8 +83,8 @@ SortingGroup:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 2
---- !u!58 &8345246583433801293
-CircleCollider2D:
+--- !u!70 &3753023226750856504
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -96,9 +96,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.3}
-  serializedVersion: 2
-  m_Radius: 0.5
+  m_Offset: {x: -0.00000003153891, y: 0.23543254}
+  m_Size: {x: 1.0525227, y: 0.5495289}
+  m_Direction: 1
 --- !u!1 &5592241227253676760
 GameObject:
   m_ObjectHideFlags: 0

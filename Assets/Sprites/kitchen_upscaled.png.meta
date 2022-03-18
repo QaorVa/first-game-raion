@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: b01b3318ced0be64c853f8a304920211
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -640223411620055177
+    second: kitchen_upscaled_0
+  - first:
+      213: -323504867172196431
+    second: kitchen_upscaled_1
+  - first:
+      213: 5835007759449718170
+    second: kitchen_upscaled_2
+  - first:
+      213: -5369385893058988570
+    second: kitchen_upscaled_3
+  - first:
+      213: -4669874537650486875
+    second: kitchen_upscaled_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +116,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: kitchen_upscaled_0
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 0
+        width: 380
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7777f7df2387d17f0800000000000000
+      internalID: -640223411620055177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitchen_upscaled_1
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 0
+        width: 1029
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf571d890ea28bf0800000000000000
+      internalID: -323504867172196431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitchen_upscaled_2
+      rect:
+        serializedVersion: 2
+        x: 2260
+        y: 0
+        width: 60
+        height: 1193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9df5ab54ac1af050800000000000000
+      internalID: 5835007759449718170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitchen_upscaled_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 60
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5b93e7afb1c75b0800000000000000
+      internalID: -5369385893058988570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kitchen_upscaled_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2320
+        height: 1200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a183bd99d5413fb0800000000000000
+      internalID: -4669874537650486875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

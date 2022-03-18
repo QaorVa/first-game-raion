@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: 3029369cb93b9e345800213f6a58bfcc
+guid: 39a03da53450c10499637e91b89a422a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -846198144579156608
-    second: bathroom_upscaled_0
+      213: -7518281521987880929
+    second: produce_boxes_upscaled_0
   - first:
-      213: 9120670721652805049
-    second: bathroom_upscaled_1
+      213: 5886298751552119525
+    second: produce_boxes_upscaled_1
   - first:
-      213: -493237518440540320
-    second: bathroom_full
-  - first:
-      213: -2851411083678813791
-    second: bathroom_upscaled_3
-  - first:
-      213: 1009451289343324255
-    second: bathroom_upscaled_4
-  - first:
-      213: 933383624847354986
-    second: bathroom_upscaled_5
-  - first:
-      213: -5469595527233778445
-    second: bathroom_upscaled_6
+      213: -4209769724169626695
+    second: produce_boxes_upscaled_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,118 +112,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bathroom_upscaled_1
+      name: produce_boxes_upscaled_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 725
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bdcb6da2b1239e70800000000000000
-      internalID: 9120670721652805049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bathroom_full
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1160
-        height: 1200
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 067d47b171ba729f0800000000000000
-      internalID: -493237518440540320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bathroom_upscaled_3
-      rect:
-        serializedVersion: 2
-        x: 670
-        y: 0
-        width: 59
-        height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a176b01ab0cd68d0800000000000000
-      internalID: -2851411083678813791
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bathroom_upscaled_4
-      rect:
-        serializedVersion: 2
-        x: 680
-        y: 270
-        width: 480
-        height: 60
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f507e5f699a420e00800000000000000
-      internalID: 1009451289343324255
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bathroom_upscaled_5
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 270
-        width: 60
-        height: 930
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6c6136267b04fc00800000000000000
-      internalID: 933383624847354986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: bathroom_upscaled_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 60
-        height: 337
+        x: 20
+        y: 260
+        width: 210
+        height: 210
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,8 +126,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fc4a2ed8d71814b0800000000000000
-      internalID: -5469595527233778445
+      spriteID: f1877801ac2b9a790800000000000000
+      internalID: -7518281521987880929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: produce_boxes_upscaled_1
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 140
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2e610178550b150800000000000000
+      internalID: 5886298751552119525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: produce_boxes_upscaled_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 350
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbdcac7db4e395c0800000000000000
+      internalID: -4209769724169626695
       vertices: []
       indices: 
       edges: []
