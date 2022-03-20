@@ -16,7 +16,7 @@ public class sceneTransition : MonoBehaviour
     public vectorValue playerStorage;
     public GameObject fadeInPanel;
     public GameObject fadeOutPanel;
-    public float fadeWait;
+    public float fadeWait = .5f;
 
     private void Awake()
     {

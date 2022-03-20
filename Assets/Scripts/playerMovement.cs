@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Fungus;
 
 public class playerMovement : MonoBehaviour
 {
+    public Flowchart Flowchart;
     public float moveSpeed;
-    public bool canMove;
 
     public Rigidbody2D rb;
     public Animator animator;
@@ -16,11 +17,13 @@ public class playerMovement : MonoBehaviour
     private void Start()
     {
         transform.position = startingPos.initialValue;
-        canMove = true;
+        
     }
 
-    void Update()
+    void FixedUpdate()
     {
+        
+        
         movement.x = Input.GetAxisRaw("Horizontal");
         movement.y = Input.GetAxisRaw("Vertical");
 
@@ -43,16 +46,13 @@ public class playerMovement : MonoBehaviour
             animator.SetFloat("LastVertical", Input.GetAxisRaw("Vertical"));
         }
 
-
-    }
-
-    void FixedUpdate()
-    {
-        if (canMove && movement != Vector2.zero)
+        if (Flowchart.isActiveAndEnabled)
         {
-            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+            return;
         }
-            
+
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
     }
+    
 }
